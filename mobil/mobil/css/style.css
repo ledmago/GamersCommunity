@@ -1,0 +1,194 @@
+body{
+
+  background: #222D3A;
+  
+margin:0px;
+padding:0px;
+font-family: 'Cuprum', sans-serif;
+overflow:hidden;
+
+}
+#header
+{
+
+background: rgba(0, 0, 0, 0.3);
+width:100%;
+height:50px;
+font-family: 'Exo', sans-serif;
+color:#FFF;
+font-size:100%;
+text-align:center;
+line-height:50px;
+transition:all 1s;
+margin-left:-100%;
+overflow:hidden;
+z-index:99999999;
+position:absolute;
+}
+#girisekran
+{
+
+background: rgba(0, 0, 0, 0.65);
+width:90%;
+height:80vh;
+ position:absolute;
+margin: auto;
+  position: absolute;
+
+ left: 0; bottom: 100%; right: 0;
+
+transition:all 3s;
+z-index:5;
+border-radius:5px;
+
+max-width:500px;
+}
+#ustlogo
+{
+  width: 85px;
+  height: 85px;
+  background-color: #222D3A;
+  border-radius: 100%;
+  position: absolute;
+  top: -42px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  right: 0px;
+  background-image: url("../img/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+
+
+}
+.cizgi
+{
+
+margin: 10px auto 20px;
+  width: 70%;
+  border-top: 1px solid rgba(0, 0, 0, 0.13);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.login-logo
+{
+
+margin-top:45px;
+
+}
+#forumic
+{
+
+
+}
+
+input
+{
+
+  display: block;
+  margin: 0 auto 0px;
+  width: 85%;
+  background: #fefefe;
+  border: 0;
+  color: #6c6c6c;
+  padding: 8px;
+  border-radius: 2px;
+
+}
+.buton
+{
+  width: 49%;
+  display: block;
+  margin: 0px auto 20px;
+  color: white;
+  text-transform: uppercase;
+  background: #B93134;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor:pointer;
+  float:left;
+
+
+}
+.buton:hover{
+background:#09453B;
+
+}
+.butonface
+{
+  width: 100%;
+  margin-top:5px;
+  display: block;
+  margin: 0px auto 20px;
+  color: white;
+  text-transform: uppercase;
+  background: #198573;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor:pointer;
+background:#243174;
+background-position:3px;
+
+}
+input[type=text] 
+{
+padding-left:30px;
+background-image:url(../img/user92.png);
+background-size:24px 24px;
+background-repeat:no-repeat;
+font-family: 'Cuprum', sans-serif;
+}
+input[type=password]
+{
+padding-left:30px;
+background-image:url(../img/key195.png);
+background-size:24px 24px;
+background-repeat:no-repeat;
+font-family: 'Cuprum', sans-serif;
+}
+
+#butonlarxd
+{
+margin: 0 auto 0px;
+  width: 85%;
+}
+#icon
+{
+width:32px;
+height:32px;
+background-color:#FFF;
+border-radius:100%;
+background-position:center;
+background-size:80%;
+background-repeat:no-repeat;
+float:left;
+margin-left:10px;
+}
+.fb{
+
+background-image:url(../icon/1.png);
+
+}
+
+.twitch{
+
+background-image:url(../icon/2.png);
+
+}
+
+.twitter{
+
+background-image:url(../icon/3.png);
+
+}
+
+
+.youtube{
+
+background-image:url(../icon/4.png);
+
+}

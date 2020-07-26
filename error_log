@@ -1,0 +1,20 @@
+[24-May-2017 17:02:05 UTC] PHP Warning:  file_get_contents(https://api.twitch.tv/kraken/streams/zeeoon): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/daumuzik/public_html/sosyalmedya/proje/sosyalmedya/header.php on line 444
+[24-May-2017 17:03:44 UTC] PHP Warning:  file_get_contents(https://api.twitch.tv/kraken/streams/zeeoon): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/daumuzik/public_html/sosyalmedya/proje/sosyalmedya/header.php on line 444
+[24-May-2017 17:03:48 UTC] PHP Warning:  file_get_contents(https://api.twitch.tv/kraken/streams/zeeoon): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/daumuzik/public_html/sosyalmedya/proje/sosyalmedya/header.php on line 444
+[24-May-2017 17:03:52 UTC] PHP Warning:  file_get_contents(https://api.twitch.tv/kraken/streams/zeeoon): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/daumuzik/public_html/sosyalmedya/proje/sosyalmedya/header.php on line 444
+[24-May-2017 17:04:08 UTC] PHP Warning:  file_get_contents(https://api.twitch.tv/kraken/streams/zeeoon): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/daumuzik/public_html/sosyalmedya/proje/sosyalmedya/header.php on line 444
+[24-May-2017 17:04:15 UTC] PHP Warning:  file_get_contents(https://api.twitch.tv/kraken/streams/zeeoon): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/daumuzik/public_html/sosyalmedya/proje/sosyalmedya/header.php on line 444
+[24-May-2017 17:04:25 UTC] PHP Warning:  file_get_contents(https://api.twitch.tv/kraken/streams/zeeoon): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/daumuzik/public_html/sosyalmedya/proje/sosyalmedya/header.php on line 444
+[24-May-2017 17:04:40 UTC] PHP Warning:  file_get_contents(https://api.twitch.tv/kraken/streams/zeeoon): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/daumuzik/public_html/sosyalmedya/proje/sosyalmedya/header.php on line 444
+[24-May-2017 17:04:41 UTC] PHP Warning:  file_get_contents(https://api.twitch.tv/kraken/streams/zeeoon): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/daumuzik/public_html/sosyalmedya/proje/sosyalmedya/header.php on line 444
+[24-May-2017 17:06:02 UTC] PHP Warning:  file_get_contents(https://api.twitch.tv/kraken/streams/zeeoon): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/daumuzik/public_html/sosyalmedya/proje/sosyalmedya/header.php on line 444

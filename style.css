@@ -1,0 +1,724 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    
+    
+    border-radius: 10px;
+     
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color:#111;
+    border-radius: 10px;
+   
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+body{
+ background-color:#EBEBEB; 
+ margin:0px;
+ padding:0px; overflow:hidden;
+   
+}
+.show-menu{
+
+background-color:#373a47;
+}
+a{
+
+text-decoration:none;
+
+}
+.menu-wrap{
+color:#EBEBEB;
+text-decoration:none;
+
+}
+audio {
+
+width:0px;
+height:0px;
+display:hidden;
+}
+#solyer
+{
+    background-color: #72818B;
+border-right: 3px solid #454857;
+width: 18%;
+height: 100%;
+float: left;
+
+}
+#soltaraf
+{
+    background-color:#72818B;
+    border-right:3px solid #454857;
+    width:18%;
+    height:100%;
+    position:absolute;
+
+    overflow-y:scroll;
+}
+#iclogo
+{	transition:all 3s;
+    width:75%;
+    background-color:#FFF;
+    border:2px solid #454857;
+    min-height:200px;
+    margin-left:auto;
+    margin-right:auto;
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+margin-top:35px;
+
+}
+#iclogo img{
+
+
+width: 100%;}
+.iclogo{
+    font-family: 'Oswald', sans-serif;
+    color:#FFF;
+    text-align:center;
+    margin-top:10px;
+    font-size:20px;
+}
+.slogan{
+    font-family: 'Oswald', sans-serif;
+    color:#FFF;
+    text-align:center;
+    margin-top:5px;
+    font-size:15px;
+}
+ ul.sosyal{
+    list-style-type:none;
+    
+   font-family: 'Lucida Grande', Verdana, sans-serif;
+    color:#FFF;
+    font-size:15px;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    
+    
+} ul.sosyal2{    list-style-type:none;       font-family: 'Lucida Grande', Verdana, sans-serif;    color:#FFF;    font-size:15px;    width:100%;    margin:0px;    padding:0px;       }
+ ul.sosyal2 li a{    display:block;    width:100%;    color:#FFF;    padding-top:7px;    padding-bottom:7px;    text-decoration:none;    text-align:center;    -webkit-box-shadow: 1px 1px 1px 1px rgb(84, 94, 100);box-shadow: 0 1px 1px rgb(84, 94, 100);}
+ ul.sosyal li a{
+    display:block;
+    width:100%;
+    color:#FFF;
+    padding-top:7px;
+    padding-bottom:7px;
+    text-decoration:none;
+    text-align:center;
+    -webkit-box-shadow: 1px 1px 1px 1px rgb(84, 94, 100);box-shadow: 0 1px 1px rgb(84, 94, 100);
+}
+ ul.sosyal li a:hover{
+    background-color:#454857;	-webkit-box-shadow: 1px 1px 1px 1px rgb(55, 59, 71);box-shadow: 1px 1px 1px 1px rgb(55, 59, 71);
+} ul.sosyal2 li a:hover{    background-color:#72818B;	-webkit-box-shadow: 1px 1px 1px 1px rgb(55, 59, 71);box-shadow: 1px 1px 1px 1px rgb(55, 59, 71);}
+#container{
+    background-color:#ecf0f1;
+height: 100%;
+float: left;width:81%;
+background: #e6eecc url(karsilama/images/beige_paper.png) repeat top left;
+color: #333;
+font-family: 'Terminal Dosis', Arial, sans-serif;
+font-size: 13px;
+}
+#header{
+    width:100%;
+    height:90px;
+    background-color:#FFF;
+	overflow:hidden;
+        
+}
+.basliktext
+{
+     font-family: 'Oswald', sans-serif;
+    color:#111;
+	font-size:30px;
+	padding-left:30px;
+	padding-top:10px;
+	float:left;
+
+}
+.yayindurum
+{
+     font-family: 'Oswald', sans-serif;
+    color:#111;
+	font-size:13px;
+
+	padding-top:2px;
+	float:left;
+	color:#5A5A5A;
+
+}
+
+.basliksag
+{
+     font-family: 'Oswald', sans-serif;
+    color:#111;
+	font-size:30px;
+	padding-right:30px;
+	padding-top:10px;
+	float:right;
+
+}
+#loginregister{
+    opacity:0.8;
+    width:100%;
+    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+    border:0px solid #4F57AA;
+    background-color:#454857;
+    height:300px;
+    position:abssolute;
+    padding-top:6px;
+
+
+    
+}
+
+input {
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+input[type=text], input[type=password] {
+    margin-left:auto;
+    margin-right:auto;
+  margin: 5px;
+  padding: 0 10px;
+  width: 200px;
+  height: 34px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -moz-outline-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+input[type=text]:focus, input[type=password]:focus {
+  border-color: #7dc9e2;
+  outline-color: #dceefc;
+  outline-offset: 0;
+}
+
+input[type=submit] {
+  padding: 0 18px;
+  height: 29px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #527881;
+  text-shadow: 0 1px #e3f1f1;
+  background: #cde5ef;
+  border: 1px solid;
+  border-color: #b4ccce #b3c0c8 #9eb9c2;
+  border-radius: 16px;
+  outline: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  background-image: -webkit-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: -moz-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: -o-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: linear-gradient(to bottom, #edf5f8, #cde5ef);
+  -webkit-box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+input[type=submit]:active {
+  background: #cde5ef;
+  border-color: #9eb9c2 #b3c0c8 #b4ccce;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.lt-ie9 input[type=text], .lt-ie9 input[type=password] {
+  line-height: 34px;
+}
+#loginregister h2{
+    color:#FFF;
+    font-family: 'Oswald', sans-serif;
+    padding:0px;
+    margin-bottom:-30px;
+    text-align:center;
+    font-size:20px;
+}
+table a {
+    color:#FFF;
+    text-decoration:none;
+}
+#haberbandi
+{
+background-color:#454857;
+width:100%;
+height:25px;
+color:#FFF;
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  line-height:25px;
+  font-size:15px;
+  
+
+}
+#postalani
+{
+padding-bottom:15px;
+width:79%;
+float:left;
+overflow-y:scroll;
+overflow-x:hidden;
+width: 84%;
+height: 82%
+
+
+}
+#sagblock
+{
+/* Eski 
+
+background-color:#FFF;
+width:21%;
+height:82%;
+float:left;
+
+*/
+
+background-color: #454857;
+width: 15.7%;
+height: 82%;
+float: right;
+border-left: 3px solid #454857;
+overflow:scroll;
+overflow-x: hidden;
+
+}
+ @media screen and (max-width:919px) and (min-width:1px) {
+
+ #sagblock
+{width: 15%; }
+
+
+ }
+ @media screen and (max-width:1230px) and (min-width:920px) {
+
+ #sagblock
+{width: 15.6%; }
+
+
+ }
+
+#postaq
+{
+
+
+}
+#post{transition:all 1s;
+padding-left:13px;padding-top:10px;
+background-color:#FFF;
+width:75%;
+min-height:210px;
+
+
+height:auto;
+
+margin-top:10px;
+
+float:left;
+
+color:#444;
+padding-top:10px;
+font-family: 'PT Sans Narrow', sans-serif;
+
+font-size:18px;
+background-color: #ffffff;box-shadow: 0 1px 2px #c9cccd;
+
+}#profil:hover{background-color:#8F002E;opacity:0.8;}
+#profil
+{
+transition:all 2s;
+float:left;cursor:pointer;
+min-height:100px;
+
+background-color:#E4E4E4;
+margin-top:10px;
+margin-left:2%;
+
+width:20%;
+min-height:100px;
+-webkit-box-shadow: 1px 1px 1px 1px #c9cccd;
+box-shadow: 1px 1px 1px 1px #c9cccd;
+word-wrap: break-word;
+height: 220px;
+overflow-y: scroll;
+
+}
+.ppphoto{
+    
+    width:90px;
+    height:90px;
+    border-radius:100%;
+    border:1px solid #CCC;
+    margin-top:20px;
+}
+.profilyazi{
+        font-family: 'Oswald', sans-serif;
+        text-align:center;
+        overflow:hidden;
+        margin-top:10px;
+        font-size:17px;
+        color:#333;
+
+    
+}
+.yetki{
+    font-family: 'Tahoma', sans-serif;
+    font-size:13px;
+   color: #68714F;
+    margin-bottom:10px;
+}
+.postresim
+{
+    display:block;
+    max-width:70%;
+    max-height:400px;
+    min-height:200px;
+    margin-top:10px;
+    margin-bottom:10px;
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+.postresim:hover
+{
+    opacity:0.7;
+}
+#durum img{
+    float:left;
+}
+#durum{
+
+    height:30px;
+    line-height:30px;
+}
+#postyazisi
+{
+    min-height:170px;	overflow-x:hidden
+}#postyazisi img{display:block;max-width: 70%;max-height: 400px;min-height: 200px;margin-top: 10px;margin-bottom: 10px;webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;}
+#durumyazi{
+    float:left;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-left:5px;
+    font-size:17px;
+    font-family: 'Patrick Hand', cursive;
+
+}
+#bolumler
+{
+    background-color:#FFF;
+    height:50px;
+    width:100%;
+     border-bottom:1px solid #CCC;
+}
+#subsbolumu
+{
+    width:49%;
+     border-right:1px solid #CCC;
+    font-family: 'Oswald', sans-serif;
+color: #111;
+font-size: 15px;
+float:left;
+text-align:center;
+line-height:50px;
+cursor:pointer;
+}
+#mtbolumu
+{
+    width:50%;
+   
+    font-family: 'Oswald', sans-serif;
+color: #111;
+font-size: 15px;
+float:left;
+text-align:center;
+cursor:pointer;
+line-height:50px;
+}
+#mtbolumu:hover, #subsbolumu:hover
+{
+background-color:#CCC;
+    
+}
+#subsbolumu a, #mtbolumu a{
+    
+    text-decoration: none; /* No underlines on the link */
+    color:#111;
+    
+}
+#sayac{
+    background-color:#72818B;
+    width:100%;
+    height:100px;
+   font-family: 'Oswald', sans-serif;
+color:#FFF;   
+
+}
+#sinema
+{
+
+    width:100%;
+    background-color:#8F002E;
+     height:100px;
+    cursor:pointer;	  font-family: 'Oswald', sans-serif;   font-size:25px;   text-align:center;   line-height : 100px;   	color:#FFF;}#kurallar{    width:100%;    background-color:#8F002E;     height:100px;    cursor:pointer;		background-color:#4E5361;	color:#FFF;	   font-family: 'Oswald', sans-serif;   font-size:25px;   text-align:center;   line-height : 100px;   cursor:pointer;}#ekipmanlar{    width:100%;    background-color:#8F002E;     height:100px;    cursor:pointer;	color:#FFF;	   font-family: 'Oswald', sans-serif;   font-size:25px;   text-align:center;   line-height : 100px;   cursor:pointer;}
+#sinemamodu{display:none;
+    width:1200px;
+    height:100%;
+    background-color:#FFF;
+    position:fixed;
+    top:0px;
+   transition:width 2s;
+z-index: 99;
+
+-webkit-transition:all 2s;
+
+-moz-transition:all 2s;
+
+-o-transition:all 2s;
+}
+#yayinakisi
+{
+    background-color:#72818B;
+    height:100%;
+}
+#yayinakisi h1 
+{
+    text-align:center;
+    margin:0px;
+    padding:0px;
+      font-family: 'Oswald', sans-serif;
+      color#111;
+      list-style-type:none;
+}
+#yayinakisi ul
+{
+
+
+      font-family: 'Oswald', sans-serif;
+      color#111;
+      list-style-type:none;
+}  #element_to_pop_up { display:none; }
+  #yorumpost{  font-family: 'PT Sans Narrow', sans-serif;font-size: 18px;width:95%;width:95%;margin-left:2%;height:auto;min-height:78px;margin-top:10px;margin-bottom:5px;    }  #yorumprofil  {  width:25%;  float:left;  height:78px;background-color: #E4E4E4;-webkit-box-shadow: 1px 1px 1px 1px #c9cccd;box-shadow: 1px 1px 1px 1px #c9cccd;    }.yprof{    height:55px;  width:55px;  float:left;  border-radius: 100%;  -webkit- border-radius: 100%;border: 1px solid #CCC;margin-top:10px;margin-left:15px;    }  #yorumyazi  {font-family: 'Oswald', sans-serif;text-align: center;overflow: hidden;margin-top: 10px;font-size: 17px;color: #333;    }  #yorumyorum{  word-wrap: break-word;max-height: 600px;width:65%;padding:10px;float:left;color: #444;font-family: 'PT Sans Narrow', sans-serif;font-size: 18px;background-color: #ffffff;-webkit-box-shadow: 0 1px 2px #c9cccd;box-shadow: 0 1px 2px #c9cccd;margin-bottom: 10px;overflow: hidden;min-height: 59px;      }  
+  #yorumyapdiv{    height:70px;  width:100%;  position:fixed; bottom: 0; z-index:9999;}    
+  #bildirimler  {    width:100%;  background-color:#454857;   overflow:hidden;  }  
+  #bild{  padding-left:5px;  padding-right:5px;  padding-bottom:5px;  border-bottom:1px solid #CCC;  color: #444;padding-top: 10px;font-family: 'PT Sans Narrow', sans-serif;font-size: 18px;cursor:pointer;    }  #bild:hover{  background-color:#CCC;      }#baslikbild{font-family: 'Oswald', sans-serif;color: #FFF;text-align: center;padding-top:5px;padding-bottom:5px;font-size: 20px;background-color:#8F002E;}.sayfalar-ayrac{font-weight:bolder;margin-top:10px;margin-bottom:10px;font-size: 18px;background-color: #ffffff;box-shadow: 0 1px 2px #c9cccd;font-family: 'PT Sans Narrow', sans-serif;height:auto;min-height:50px;text-align:center;line-height:50px;}.sayfalar-ayrac a{color:#111;}.durumyeni{display: initial;color:red;cursor:pointer;}
+  
+  .nolink{
+  
+  text-decoration:none;
+  color:#FFF;
+  border:0px;
+  
+  
+  }
+  #sayfaislemleri{
+  padding-top:10px;
+  transition: all 1s;
+/* padding-left: 13px; */
+/* padding-top: 10px; */
+background-color: #FFF;
+width: 97%;
+/* min-height: 190px; */
+/* height: auto; */
+margin-top: 5px;
+/* float: left; */
+color: #444;
+margin-left: auto;
+margin-right: auto;
+height: 55px;
+margin-bottom:3px
+/* padding-top: 10px; */
+font-family: 'PT Sans Narrow', sans-serif;
+font-size: 18px;
+background-color: #ffffff;
+box-shadow: 0 1px 2px #c9cccd;
+  }
+  .sayfabutonu{
+  
+
+border-radius: 7px;
+background: #b6ee65;
+text-decoration: center;
+border: none;
+color: #51771a;
+margin-top: 5px;
+padding-top: 9px;
+padding-bottom: 9px;
+outline: none;
+font-size: 13px;
+border-bottom: 3px solid #307d63;
+cursor: pointer;
+margin-left:8%;
+  }
+  .sayfatext
+  {
+  
+  display: block;
+width: 50%;
+height: 25px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+  
+  .isik
+  {
+  
+  
+ display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+
+  color: rgba(255,255,255,1);
+  text-decoration: normal;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 0 0 1px rgba(255,255,255,1) , 0 0 2px rgba(255,255,255,1) , 0 0 3px rgba(255,255,255,1) , 0 0 4px #ce4040 , 0 0 7px #ce4040 , 0 0 8px #ce4040 , 0 0 10px #ce4040 ;
+
+  }
+#bildirimler a
+{
+display: block;
+color:#FFF;
+text-decoration : none;
+float: left;
+margin-top: 5px;
+margin-left: 8px;
+font-family: 'Oswald', sans-serif;
+
+
+
+}
+#bildirimler img
+{
+float: left;
+margin-bottom: 5px;
+}
+#bildpanel
+{
+
+padding-left: 20px;
+padding-top: 18px;
+}
+
+#bildisim
+{
+background-color: #E4E4E4;
+box-shadow: 1px 1px 1px 1px #5D6162;
+height:55px;
+overflow:hidden;
+transition:all 2s;
+}
+#bildisim:hover
+{
+
+background-color:#619387
+
+
+}
+#bildisim p{
+font-family: 'Oswald', sans-serif;
+color: #333;
+float:left;
+margin-top: 15px;
+margin-left: 5px;
+
+}
+.bildisimimg{
+
+width: 30px;
+height: 30px;
+border-radius: 100%;
+border: 1px solid #CCC;
+margin-top: 10px;
+float:left;
+margin-left:8px;
+}
+
+#kategorileryaz
+{
+
+line-height: 45px;
+padding-left: 5px;
+padding-right: 5px;
+height:50px;
+    border-left:1px solid #CCC;
+	
+	font-family: 'PT Sans Narrow', sans-serif;
+font-size: 18px;
+color:#333;
+transition:all 2s;
+}
+#kategorileryaz:hover
+{
+color: #CA6A6A;
+font-size:20px;
+
+}
+
+#kategoritopla
+{
+width: 100%;
+text-align:center;
+}
+.guzellestir
+{
+color: #CA6A6A;
+font-size:20px;
+}
+.chatacilis
+{
+display:none;
+background: #0099cc;
+  position: fixed;
+  right: 5%;
+  bottom: 0%;
+  padding: 10px;
+  width: 120px;
+  color: #FFF;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 23px;
+  background-image: url(img/chat31.png);
+  background-position: 7;
+  background-repeat: no-repeat;
+  transition:all 2s;
+font-family: 'Oswald', sans-serif;
+}
+.chatacilis:hover{
+opacity:1;
+cursor:pointer;
+
+}
